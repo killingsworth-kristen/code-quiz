@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #34eb52
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* header bar styling */
+header {
+    background: var(--primary-color);
+    height: 10vh;
+    display: flex;
+}
+
+header h1 {
+    text-align: center;
+    padding-left: 40%;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+/* main body styling */
+.hidden {
+    display: none;
+}
+#start-page {
+    text-align: center;
+    margin-top: 10%;
+    line-height: 200%;
+}
+
+#start-page button{
+    margin-top: 1%;
+    font-size: 150%;
+}
+
+#timer {
+    text-align: center;
+}
+
+
+
