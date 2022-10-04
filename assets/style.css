@@ -19,6 +19,10 @@ header h1 {
     text-align: center;
     padding-left: 40%;
 }
+header h2 {
+    background: var(--primary-color);
+    color: black;
+}
 
 header a {
     text-decoration: none;
@@ -31,6 +35,7 @@ header a {
 .hidden {
     display: none;
 }
+
 #start-page {
     text-align: center;
     margin-top: 10%;
@@ -41,8 +46,18 @@ header a {
     margin-top: 1%;
     font-size: 150%;
 }
-
+#question-display {
+    text-align: center;
+}
 #timer {
+    text-align: center;
+}
+#highscore-input {
+    display: flex;
+}
+
+#score {
+    padding-left: 3px;
     text-align: center;
 }
 
